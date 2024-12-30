@@ -10,6 +10,7 @@ COPY app.py /app
 
 # Install Flask
 RUN pip install flask
+RUN pip install transformers torch
 
 # Expose port 5000
 EXPOSE 5000
